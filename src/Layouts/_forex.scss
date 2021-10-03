@@ -1,0 +1,175 @@
+.forex {
+    background: linear-gradient(260.72deg, #6b77ff 0%, #424edb 100.84%);
+    position: relative;
+    @include breakpoint(xs) {
+        padding: 0 0 30px 0;
+    }
+}
+.forex__item {
+    display: flex;
+    justify-content: space-between;
+}
+.forex__body {
+    padding: 30px 60px 0px 0;
+    @include breakpoint(mxs) {
+        padding: 30px 15px 0 0;
+    }
+}
+
+.forex__text {
+    line-height: 27px;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #ffffff;
+    margin: 0 0 20px 0;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+    }
+}
+p {
+    margin: 0;
+}
+.forex__list {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.11em;
+
+    color: #ffffff;
+}
+.forex__list ul li {
+    background: url("/img/row.svg") left 4px no-repeat;
+    background-size: 18px;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.11em;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+    padding: 0 0 0 40px;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+    }
+}
+.forex__itembutton {
+    margin: 35px 0 0 0;
+    display: flex;
+}
+
+.forex__button {
+    margin: 0 15px 0 0;
+    background: #6b77ff;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    height: 54px;
+}
+@media (max-width: 955px) {
+    .forex__itembutton {
+        margin: 35px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .forex__button button {
+        font-size: 16px;
+    }
+    .forex__subtext p:first-child {
+        margin: 10px;
+    }
+}
+.forex__button button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #6b77ff;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    background: url("/img/Polygon\ 5.svg") 270px no-repeat;
+    padding: 0 18px;
+    width: 320px;
+    letter-spacing: -0.11em;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    @include breakpoint(mxs) {
+    }
+}
+.forex__subtext p:first-child {
+    white-space: nowrap;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    @include breakpoint(xs) {
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+.forex__subtext p:last-child {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #ffffff;
+    @include breakpoint(xs) {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+.forex__img {
+    max-width: 100%;
+}
+.forex__img img {
+    position: relative;
+    top: -100px;
+    right: 35px;
+    @include breakpoint(xs) {
+        width: 180px;
+        height: 290px;
+    }
+    @include breakpoint(mxs) {
+        width: 80px;
+        height: 150px;
+        top: -50px;
+        right: 5px;
+    }
+}

@@ -1,0 +1,182 @@
+.midle {
+    padding: 17px 0;
+}
+
+.midle__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.midle__title {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    /* Black2 */
+    margin: 0 0 16px 0;
+
+    color: #0f0f10;
+}
+
+.midle__subtitle {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    margin: 0 0 12px 0;
+
+    letter-spacing: -0.11em;
+
+    /* Black */
+
+    color: #2b3039;
+}
+
+.midle__list li {
+    margin: 0 0 12px 0;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    /* Black */
+
+    color: #2b3039;
+}
+.midle__button {
+    margin: 18px 0 0 0;
+    /* White */
+
+    box-sizing: border-box;
+}
+.midle__button button {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #f0f3f7;
+    padding: 15px 20px;
+    background: #ffae29;
+    /* White */
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+@media (max-width: 990px) {
+    .midle__clock {
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+    .midle__img {
+        margin: 0 auto;
+    }
+
+    .midle__info {
+        padding: 20px 0 0 0;
+        margin: 0 auto;
+    }
+}
+
+.midle__clocktime {
+    display: flex;
+    justify-content: flex-end;
+    margin: 18px 0 0 0;
+}
+
+.midle__clock-content {
+    box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(223, 232, 232));
+    border-radius: 5px;
+    width: 200px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midle__clock-value {
+    margin: 0 4px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.midle__clock-text {
+    font-size: 30px;
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.midle__clock-text {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    margin: 15px 0 0 0;
+    text-align: right;
+
+    color: #e73937;
+}
+
+.midle__clock-subtext {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    margin: 12px 0 0 0;
+    text-align: right;
+
+    color: #424edb;
+}
+
+.midle__clock-button {
+    margin: 18px 0 0 0;
+    /* White */
+
+    box-sizing: border-box;
+}
+.midle__clock-button button {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    /* or 82% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #f0f3f7;
+
+    padding: 15px 20px;
+    background: #00b896;
+
+    /* White */
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}

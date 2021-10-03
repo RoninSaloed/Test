@@ -1,0 +1,82 @@
+.nav-link {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.11em;
+
+    color: #2b3039;
+    margin: 0 20px 0 0;
+    border-right: 1px solid #f0f3f7;
+}
+.nav-link.last {
+    border-right: none;
+}
+
+.green1 a {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.11em;
+
+    color: #ffffff;
+
+    background: #01987c;
+    padding: 16px 13px;
+}
+.green2 a {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.11em;
+
+    color: #ffffff;
+    background: #00b896;
+    padding: 16px 13px;
+}
+@media (max-width: 991px) {
+    .green1 a {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.11em;
+
+        color: #2b3039;
+        padding: 0 0 0 0;
+        line-height: 40px;
+        border-right: none;
+        background: none;
+    }
+    .green2 a {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.11em;
+
+        color: #2b3039;
+        background: none;
+        padding: 0;
+    }
+    .nav-link {
+        font-family: "OpenSans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.11em;
+
+        color: #2b3039;
+        margin: 0 24px 0 0;
+
+        border-right: none;
+    }
+}

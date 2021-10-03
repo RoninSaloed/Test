@@ -1,0 +1,191 @@
+.footer {
+    background: url("/img/image\ 7.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer__back {
+    display: flex;
+    justify-content: center;
+    @include breakpoint(smxs) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.footer__img {
+    max-width: 230px;
+    height: 320px;
+    margin: 80px 0 80px 0;
+    @include breakpoint(smxs) {
+        padding: 0 0 30px 0;
+    }
+}
+.footer__img img {
+    max-width: 230px;
+    height: 320px;
+}
+
+.footer__info {
+    margin: 80px 0 70px 60px;
+    @include breakpoint(smxs) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 0 0 0;
+    }
+}
+
+.footer__title {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 33px;
+    /* or 100% */
+    margin: 0 0 25px 0;
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #ffffff;
+    @include breakpoint(xs) {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+        font-size: 20px;
+        line-height: 15px;
+    }
+}
+
+.footer__subtitle {
+    margin: 0 0 15px 0;
+
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height, or 121% */
+
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #ffffff;
+    @include breakpoint(xs) {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.footer__list {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #ffffff;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+.footer__list ul li {
+    margin: 0 0 12px 0;
+    padding: 0 0 0 40px;
+    background: url("/img/Group\ 24.svg") left top no-repeat;
+    @include breakpoint(mxs) {
+        background: url("/img/Group\ 24.svg") left top no-repeat;
+        background-size: 14px;
+        padding: 0 0 0 20px;
+    }
+    @include breakpoint(smxs) {
+        background: url("/img/Group\ 24.svg") left top no-repeat;
+        background-size: 14px;
+        padding: 0 0 0 20px;
+    }
+}
+.footer__item {
+    display: flex;
+    @include breakpoint(mxs) {
+        margin: 0 0 30px 0;
+    }
+}
+
+.footer__button1 {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    /* or 82% */
+    margin: 0 20px 0 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #f0f3f7;
+
+    padding: 15px 20px;
+    background: #00b896;
+
+    /* White */
+    color: #ffffff;
+    box-sizing: border-box;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 8px 12px;
+    }
+}
+.footer__button2 {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 18px;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #f0f3f7;
+
+    padding: 15px 20px;
+    background: #00b896;
+
+    color: #ffffff;
+    box-sizing: border-box;
+    @include breakpoint(xs) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @include breakpoint(mxs) {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 8px 12px;
+    }
+}

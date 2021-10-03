@@ -1,0 +1,38 @@
+.logo__right {
+    display: flex;
+    justify-content: right;
+}
+.lang {
+    background: url("/img/image\ 6.svg") left center no-repeat;
+    padding: 0 0 0 6px;
+}
+
+.lang-text {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    border-right: none;
+    letter-spacing: -0.11em;
+    color: #000000;
+}
+.nav-link.lang-text {
+    border-right: none;
+    color: #000000;
+}
+.logo__item {
+    margin: 0 0 70px 0;
+}
+
+.logo__text {
+    text-transform: uppercase;
+    color: #5d69f7;
+    font-size: 30px;
+    font-weight: 700;
+    background: url("/img/Vector.svg") left center no-repeat;
+    padding: 20px 0 20px 80px;
+    @include breakpoint(xs) {
+        font-size: 25px;
+    }
+}
